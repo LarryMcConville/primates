@@ -1,0 +1,33 @@
+body {
+    background-color: olive;
+    font-size: 20px;
+}
+
+.jumbotron {
+	background-color: #428bca;
+}
+
+.jumbotron > h1 {
+	color:white;
+}
+
+.panel > .panel-heading {
+    /*To change the background-color of the panel-heading, you must first remove the background image.
+    The background image covers the background color.
+    https://stackoverflow.com/questions/26505033/how-to-override-bootstraps-panel-heading-background-color
+    */
+    background-image: none;
+	background-color: #428bca;
+}
+
+.panel > .panel-body {
+    color: #428bca;
+    font-size: 16px;
+}
+
+.embeded-link {
+    color: #428bca;
+    text-decoration: underline;
+    text-underline-position: below;
+    font-weight: bold;
+}
